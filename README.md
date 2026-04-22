@@ -17,3 +17,27 @@ execute run1.mod -dir=run1; Rscript scripts/postprocess.R run1
 
 *为了方便使用，我上传了一个PPK的demo，大家可以玩一玩*
 Demo里面是华法林的一个case，大家可以玩一玩，如果有问题欢迎讨论！！！留下你的issue and star！！！
+
+
+# PPK-workbench-assistance-demo
+This is a small demo designed to assist pharmacometrics modelers who don't use Pirana and want convenient reference results after running PsN.
+
+# Directory Structure
+## scripts
+Contains two R scripts. One primarily calls xpose to generate the corresponding diagnostic plots and parameter tables. The other serves as a main script to execute the workflow.
+
+## reports
+Mainly contains a code template for parameter reporting. All future reports will be generated based on this template, and you are free to customize the template to suit your needs.
+
+## output
+This is where the diagnostic plots and parameter tables are exported, ready for direct viewing.
+
+## How to Use
+You can open the folder using any IDE (such as VSCode, Positron, etc.), which will automatically set your working directory. Then, you can run NONMEM directly using standard PsN syntax. Here is a reference command:
+
+Bash
+```
+execute run1.mod -dir=run1; Rscript scripts/postprocess.R run1
+```
+For convenience, I've uploaded a PPK demo for everyone to play around with.
+The demo features a Warfarin case study for you to try out. If you have any questions, discussions are highly welcome!!! **Please leave an issue and a star!!!**
