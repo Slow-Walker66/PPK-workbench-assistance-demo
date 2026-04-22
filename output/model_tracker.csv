@@ -1,0 +1,6 @@
+"run_id","model_file","description","base_model","minimization_successful","covariance_successful","OFV","delta_OFV_vs_previous","n_parameters","runtime","output_path","report_path"
+"run1","run1.mod","phase1 1comp","",TRUE,TRUE,734.23960066819,,8,"0:00:07","output/run1","reports/run1_summary.html"
+"run22","run22.mod","2-com all the patient","run21",TRUE,TRUE,1905.02877968883,1170.78917902064,10,,"output/run22","reports/run22_summary.html"
+"run23","run23.mod","2-com all the patient","run21",FALSE,FALSE,1887.39261419414,-17.6361654946882,11,"0:02:19","output/run23","reports/run23_summary.html"
+"run24","run24.mod","2-com all the patient","run21",FALSE,FALSE,1887.39318570898,0.000571514839748488,11,"0:04:00","output/run24","reports/run24_summary.html"
+"run25","run25.mod","2-com all the patient","run21",FALSE,FALSE,1887.39251213455,-0.000673574431630186,11,"0:03:34","output/run25","reports/run25_summary.html"
