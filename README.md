@@ -16,3 +16,4 @@
 execute run1.mod -dir=run1; Rscript scripts/postprocess.R run1
 
 *为了方便使用，我上传了一个PPK的demo，大家可以玩一玩*
+Demo里面是华法林的一个case，大家可以玩一玩，如果有问题欢迎讨论！！！留下你的issue and star！！！
