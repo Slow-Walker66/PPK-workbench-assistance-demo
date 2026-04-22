@@ -1,0 +1,2 @@
+"run_id","model_file","description","base_model","minimization_successful","covariance_successful","OFV","delta_OFV_vs_previous","n_parameters","runtime","output_path","report_path"
+"run1","run1.mod","1 com","",TRUE,TRUE,7757.52324604353,,6,"0:00:07","output/run1","reports/run1_summary.html"
